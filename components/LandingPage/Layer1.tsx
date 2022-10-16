@@ -1,3 +1,5 @@
+import styles from '../../global/Home.module.css'
+
 // Component
 import Button from "../Buttons/Button"
 import Button2 from "../Buttons/Button2"
@@ -10,7 +12,7 @@ const Layer1 = () => {
     return (
         <div
             id="Home"
-            className="flex Layer1 min-h-[100vh] h-[100%]">
+            className={`flex min-h-[100vh] h-[100%] ${styles.Layer}`}>
             <div className="flex mt-[18rem] mx-auto w-[1200px] max-w-[1200px] ">
 
                 <div className="flex flex-col gap-[1.5rem]">
