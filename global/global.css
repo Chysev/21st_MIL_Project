@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Seymour+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #171f38;
+}
+::-webkit-scrollbar-thumb {
+  background: #01d293;
+  border-radius: 12px;
+}
+
+body {
+  background: #1d2847;
+}
+
+a,
+p,
+li,
+ul,
+span,
+img {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  text-align: justify;
+}
+
+.Layer1 {
+  background-image: url("../public/img/Background3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.tula-100,
+.tula,
+.Characters {
+  font-family: "Seymour One", sans-serif;
+}
+
+.tula {
+  text-shadow: 5px 5px 2px #0e0e90;
+}
+
+.description {
+  font-family: "Kanit", sans-serif;
+  text-indent: 60px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Line {
+  background-image: linear-gradient(
+    to right,
+    whitesmoke,
+    #1d2847,
+    #0e1630,
+    #1d2847,
+    whitesmoke
+  );
+}
+
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: red;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: red;
+}
+
+#Header {
+  transition: 500ms;
+}
+
+@media (max-width: 768px) {
+  .NavRowList {
+    inset: 0 0 0 30%;
+    backdrop-filter: blur(1rem);
+    background-color: #1d2847;
+    box-shadow: 0px 1px 2.2px rgba(0, 0, 0, 0.02),
+      0px 2.5px 5.3px rgba(0, 0, 0, 0.028), 0px 4.6px 10px rgba(0, 0, 0, 0.035),
+      0px 8.3px 17.9px rgba(0, 0, 0, 0.042),
+      0px 15.5px 33.4px rgba(0, 0, 0, 0.05), 0px 37px 80px rgba(0, 0, 0, 0.07);
+    transition: 200ms ease;
+  }
+}
