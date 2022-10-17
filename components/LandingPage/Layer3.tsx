@@ -4,11 +4,10 @@ import React, { useState } from 'react'
 
 
 // Components
-const Stella = dynamic(() => import("../cards/Stella"), { ssr: false })
-const Line = dynamic(() => import("../Icons/Line"), { ssr: false })
-const First = dynamic(() => import('../cards/grpCards_1'), { ssr: false })
-const Second = dynamic(() => import('../cards/grpCards_2'), { ssr: false })
-
+import Stella from "../cards/Stella"
+import Line from "../Icons/Line"
+import First from '../cards/grpCards_1'
+import Second from '../cards/grpCards_2'
 
 const Layer3 = () => {
 

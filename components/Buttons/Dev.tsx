@@ -6,7 +6,7 @@ const Dev = () => {
     let [open, setOpen] = useState(false)
 
     const Links = {
-        GitHub: "https://github.com/Chysev",
+        GitHub: "https://github.com/Chysev/21st_MIL_Project",
         Contents: "https://drive.google.com"
     }
 

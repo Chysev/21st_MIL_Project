@@ -13,7 +13,7 @@ const Layer1 = () => {
         <div
             id="Home"
             className={`flex min-h-[100vh] h-[100%] ${styles.Layer}`}>
-            <div className="flex mt-[18rem] mx-auto w-[1200px] max-w-[1200px] ">
+            <div className="flex mt-[18rem] mx-auto w-[1200px] px-[20px] py-auto max-w-[1200px] ">
 
                 <div className="flex flex-col gap-[1.5rem]">
 
