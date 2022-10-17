@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useEffect, useState } from 'react'
 
 // Components
 import BrandName from "./components/BrandName"
@@ -11,15 +11,17 @@ const Header = () => {
 
     const [navbar, setNavbar] = useState(false)
 
-    const navhandler = () => {
-        if (window.scrollY >= 80) {
-            setNavbar(true)
-        } else {
-            setNavbar(false)
+    useEffect(() => {
+        const navhandler = () => {
+            if (window.scrollY >= 80) {
+                setNavbar(true)
+            } else {
+                setNavbar(false)
+            }
         }
-    }
+        window.addEventListener('scroll', navhandler)
+    })
 
-    window.addEventListener('scroll', navhandler)
 
     return (
         <header
