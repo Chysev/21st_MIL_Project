@@ -5,15 +5,14 @@ const RoleList = () => {
         <div className="grid grid-cols-4 768max:grid-cols-2  gap-[2rem]">
 
             {/* Director */}
-
             <div className="text-[#a2afd1] ">
                 <div className="Line2 bg-white h-[5px] rounded-[12px] w-[5rem]" />
                 <h1 className="font-bold text-2xl Title">Director</h1>
                 <h2 className="text-[18px]">Mark Amiel</h2>
+                <h2 className="text-[18px]">Ashlee Dela Cruz</h2>
             </div>
 
             {/* Video Editor */}
-
             <div className="text-[#a2afd1] ">
                 <div className="Line2 bg-white h-[5px] rounded-[12px] w-[5rem]" />
                 <h1 className="font-bold text-2xl Title">Video Editors</h1>

@@ -87,6 +87,7 @@ img {
 
 .About-Icon {
   box-shadow: 0 0 10px whitesmoke;
+  background-color: transparent;
 }
 
 .rate {
