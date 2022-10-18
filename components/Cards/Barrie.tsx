@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import ReactCardFlip from 'react-card-flip';
 
 // Component
-import FidelImg from '../../public/img/Fidel.jpg'
+import BarrieImg from '../../public/img/Barrie.jpg'
 
 
-const Fidel = () => {
+const Barrie = () => {
 
     const [isFlipped, setIsFlipped] = useState(false);
     const handleClick = () => {
@@ -22,11 +22,11 @@ const Fidel = () => {
             <div className="card flex flex-col items-center rounded-[12px] p-5 text-white">
 
                 <picture>
-                    <img src={FidelImg.src} className="rounded-[12px]" alt="" />
+                    <img src={BarrieImg.src} className="rounded-[12px]" alt="" />
                 </picture>
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <h1 className='pt-[1rem] text-2xl text-center'>Fidel Langsangan</h1>
+                    <h1 className='pt-[1rem] text-2xl'>Barrie</h1>
 
                     <div className='m-auto'>
                         <button
@@ -45,12 +45,12 @@ const Fidel = () => {
             <div className="card flex flex-col items-center rounded-[12px] p-5 text-white">
 
                 <picture>
-                    <img src={FidelImg.src} className="rounded-[12px]" alt="" />
+                    <img src={BarrieImg.src} className="rounded-[12px]" alt="" />
                 </picture>
 
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <p className='pt-[1rem] text-2xl'>I am Fidel Langsangan</p>
+                    <p className='pt-[1rem] text-2xl'>I am Barrie</p>
 
                     <div className='m-auto'>
                         <button
@@ -67,4 +67,4 @@ const Fidel = () => {
     )
 }
 
-export default Fidel
+export default Barrie

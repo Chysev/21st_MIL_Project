@@ -8,6 +8,8 @@ const Layer3 = dynamic(() => import("../components/LandingPage/Layer3"), { ssr: 
 const Home = () => {
   return (
     <>
+
+      <title>DISNEFLIX | Home</title>
       <Layer1 />
       <Layer2 />
       <Layer3 />

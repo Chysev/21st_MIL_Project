@@ -1,3 +1,5 @@
+
+// Component
 import DisneFlix from '../../../public/img/DisneFlix.png'
 
 const BrandName = () => {

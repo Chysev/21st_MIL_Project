@@ -1,4 +1,6 @@
-import styles from '../../global/Home.module.css'
+import AOS from 'aos'
+AOS.init();
+import styles from '../../css/Home.module.css'
 
 // Component
 import Button from "../Buttons/Button"
@@ -18,20 +20,29 @@ const Layer1 = () => {
                 <div className="flex flex-col gap-[1.5rem]">
 
                     <div className="mb-[-20px]">
-                        <p className="text-white ml-[3.5rem] mb-[-23px] tula-100 text-[24px] 768max:ml-[3rem] 768max:mb-[-19.4px] 1536max:ml-[4.8rem] 1024max:ml-[4.5rem] 768max:text-[17.4px]">100</p>
-                        <h1 className="text-white tula text-[57px] 768max:text-[36px] 768max:pl-[1rem] 1024max:pl-[1rem] 1536max:pl-[1rem]">TULA PARA KAY STELLA</h1>
+                        <p className="text-white ml-[3.5rem] mb-[-25px] tula-100 text-[24px] 768max:ml-[3rem] 768max:mb-[-15px] 1536max:ml-[4.8rem] 1024max:ml-[4.5rem] 768max:text-[17.4px]" data-aos="fade-down" data-aos-delay="1000">
+                            100
+                        </p>
+                        <h1
+                            data-aos="fade-down"
+                            className="text-white tula text-[57px] 768max:text-[36px] 768max:pl-[1rem] 1024max:pl-[1rem] 1536max:pl-[1rem]">
+                            TULA PARA KAY STELLA
+                        </h1>
                     </div>
 
                     <div className="flex 420max:flex-col gap-2 ml-[1rem] items-center">
 
                         {/* Removed */}
-                        {/*                         <div className="text-red-700 text-2xl">
+
+                        {/*                         
+                        <div className="text-red-700 text-2xl">
                             <i className="fa-solid fa-star"></i>
                             <i className="fa-solid fa-star"></i>
                             <i className="fa-solid fa-star"></i>
                             <i className="fa-solid fa-star"></i>
                             <i className="fa-solid fa-star"></i>
-                        </div> */}
+                        </div> 
+                        */}
 
                         {/* Added */}
                         <div className="rate flex items-center">

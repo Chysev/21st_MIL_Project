@@ -30,8 +30,8 @@ const NavList = () => {
                 <ul className="flex items-center gap-[2.8rem] 768max:fixed 768max:my-auto 
                 768max:mx-[5rem] 768max:flex-col 768max:items-center 768max:p-[min(20vh,_10rem)_2em]">
 
-                    <li className="flex items-center gap-2 hover:text-[red] text-white">
-                        <i className="fa-solid fa-house text-[16px] cursor-pointer"></i>
+                    <li className="flex items-center gap-2 hover:text-[red] text-white cursor-pointer">
+                        <i className="fa-solid fa-house text-[16px]"></i>
                         <Link href="/">
                             <a className="text-[16px]">
                                 Home
@@ -40,8 +40,8 @@ const NavList = () => {
                     </li>
 
 
-                    <li className="flex items-center gap-2 hover:text-[red] text-white">
-                        <i className="fa-solid fa-circle-exclamation text-[16px] cursor-pointer"></i>
+                    <li className="flex items-center gap-2 hover:text-[red] text-white cursor-pointer">
+                        <i className="fa-solid fa-circle-exclamation text-[16px]"></i>
                         <Link href="/about">
                             <a className="text-[16px]">
                                 About
@@ -49,8 +49,8 @@ const NavList = () => {
                         </Link>
                     </li>
 
-                    <li className="flex items-center gap-2 hover:text-[red] text-white">
-                        <i className="fa-solid fa-play text-[16px] cursor-pointer"></i>
+                    <li className="flex items-center gap-2 hover:text-[red] text-white cursor-pointer">
+                        <i className="fa-solid fa-play text-[16px]"></i>
                         <Link href="/trailer">
                             <a className="text-[16px]">
                                 Trailer
@@ -58,8 +58,8 @@ const NavList = () => {
                         </Link>
                     </li>
 
-                    <li className="flex items-center gap-2 hover:text-[red] text-white">
-                        <i className="fa-solid fa-clapperboard text-[16px] cursor-pointer"></i>
+                    <li className="flex items-center gap-2 hover:text-[red] text-white cursor-pointer">
+                        <i className="fa-solid fa-clapperboard text-[16px]"></i>
                         <Link href="/watch">
                             <a className="text-[16px]">
                                 Watch

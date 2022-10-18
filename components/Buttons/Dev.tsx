@@ -16,7 +16,7 @@ const Dev = () => {
             <div>
                 <h1
                     className='
-                            text-white cursor-pointer bg-[#0e0e90] hover:opacity-[0.5]  rounded-[7.5px] py-[8px] px-[20px]'
+                            text-white cursor-pointer bg-[#0e0e23] hover:opacity-[0.5]  rounded-[7.5px] py-[8px] px-[20px]'
                     onClick={() => setOpen(!open)}>
                     Devs
                 </h1>
@@ -29,7 +29,7 @@ const Dev = () => {
 
 
                 <div
-                    className=" mt-[10px] pt-2 rounded-[7.5px] m-auto flex bg-[#0e0e90] px-6 bg-lightsurface  dark:bg-darksurface items-center gap-[10px] pb-2 flex-col text-[white]">
+                    className=" mt-[10px] pt-2 rounded-[7.5px] m-auto flex bg-[#0e0e23] px-6 bg-lightsurface  dark:bg-darksurface items-center gap-[10px] pb-2 flex-col text-[white]">
 
                     <Link
                         href={Links.GitHub}>

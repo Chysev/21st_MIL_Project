@@ -1,16 +1,14 @@
-import dynamic from "next/dynamic"
-import React, { useState } from 'react'
-
+import React, { useEffect, useState } from 'react'
 
 
 // Components
-import Stella from "../cards/Stella"
 import Line from "../Icons/Line"
-import First from '../cards/grpCards_1'
-import Second from '../cards/grpCards_2'
+import First from '../Cards/grpCards_1'
+import Second from '../Cards/grpCards_2'
 
 const Layer3 = () => {
 
+    // Switch Tab
     const [activeTab, setActiveTab] = useState("tab1");
 
     const handleFirst = () => {
@@ -27,7 +25,8 @@ const Layer3 = () => {
             <div className="flex flex-col bg-[#0e1630] min-h-[50vh] h-[100%]  curve">
 
                 <div className="m-auto mb-[2rem]">
-                    <h1 className="text-white text-4xl Characters">
+                    <h1
+                        className="text-white text-4xl Characters">
                         Characters
                     </h1>
                     <Line />
@@ -35,14 +34,14 @@ const Layer3 = () => {
 
                 <div className="flex flex-col 1290max:grid-cols-2 p-[2rem] 560max:grid-cols-1 items-center gap-[2rem] m-auto max-w-[1200px] ">
 
-                    <div className="flex gap-2 text-white text-2xl font-bold">
+                    <div className="flex gap-4 text-white text-2xl font-bold">
                         <p onClick={handleFirst}
-                            className={` cursor-pointer hover:opacity-[0.8] ${activeTab === "tab1" ? "active" : ""}`}>
+                            className={`shadow-[_0_0_10px_#01d293] p-[5px] px-[12px] rounded-full cursor-pointer hover:opacity-[0.8] ${activeTab === "tab1" ? "active" : ""}`}>
                             1
                         </p>
 
                         <p onClick={handleSecond}
-                            className={` cursor-pointer hover:opacity-[0.8] ${activeTab === "tab2" ? "active" : ""}`}>
+                            className={`shadow-[_0_0_10px_#01d293] p-[5px] px-[12px] rounded-full cursor-pointer hover:opacity-[0.8] ${activeTab === "tab2" ? "active" : ""}`}>
                             2
                         </p>
                     </div>

@@ -2,6 +2,11 @@ import dynamic from "next/dynamic"
 
 // Components
 const Stella = dynamic(() => import('./Stella'), { ssr: false })
+const Barloza = dynamic(() => import('./Barloza'), { ssr: false })
+const Chuck = dynamic(() => import('./Chuck'), { ssr: false })
+const Barrie = dynamic(() => import('./Barrie'), { ssr: false })
+const Hunter = dynamic(() => import('./Hunter'), { ssr: false })
+const Von = dynamic(() => import('./Von'), { ssr: false })
 
 
 const grpCards_2 = () => {
@@ -10,25 +15,31 @@ const grpCards_2 = () => {
             <div
                 data-aos-delay="800"
                 data-aos="fade-down">
-                <Stella />
+                <Barloza />
             </div>
 
             <div
                 data-aos-delay="900"
                 data-aos="fade-down">
-                <Stella />
+                <Chuck />
             </div>
 
             <div
                 data-aos-delay="1000"
                 data-aos="fade-down">
-                <Stella />
+                <Hunter />
             </div>
 
             <div
                 data-aos-delay="800"
                 data-aos="fade-down">
-                <Stella />
+                <Barrie />
+            </div>
+
+            <div
+                data-aos-delay="800"
+                data-aos="fade-down">
+                <Von />
             </div>
         </div>
     )

@@ -6,7 +6,9 @@ AOS.init();
 const Stella = dynamic(() => import('./Stella'), { ssr: false })
 const Fidel = dynamic(() => import('./Fidel'), { ssr: false })
 const Fidel_Dad = dynamic(() => import('./Fidel_Dad'), { ssr: false })
-
+const Sol = dynamic(() => import('./Sol'), { ssr: false })
+const Danica = dynamic(() => import('./Danica'), { ssr: false })
+const Stella_Sister = dynamic(() => import("./Stella_Sister"), { ssr: false })
 
 
 const grpCards_1 = () => {
@@ -30,6 +32,25 @@ const grpCards_1 = () => {
                 data-aos-delay="1000"
                 data-aos="fade-down">
                 <Fidel_Dad />
+            </div>
+
+            <div
+                data-aos-delay="1000"
+                data-aos="fade-down">
+                <Sol />
+            </div>
+
+            <div
+                data-aos-delay="1000"
+                data-aos="fade-down">
+                <Danica />
+            </div>
+
+            <div
+                data-aos-delay="1000"
+                data-aos="fade-down"
+            >
+                <Stella_Sister />
             </div>
 
         </div>

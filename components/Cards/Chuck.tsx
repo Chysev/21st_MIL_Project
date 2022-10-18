@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import ReactCardFlip from 'react-card-flip';
 
 // Component
-import StellaImg from '../../public/img/Stella.jpg'
+import ChuckImg from '../../public/img/Chuck.jpg'
 
 
-const Stella = () => {
+const Chuck = () => {
 
     const [isFlipped, setIsFlipped] = useState(false);
     const handleClick = () => {
@@ -22,11 +22,11 @@ const Stella = () => {
             <div className="card flex flex-col items-center rounded-[12px] p-5 text-white">
 
                 <picture>
-                    <img src={StellaImg.src} className="rounded-[12px]" alt="" />
+                    <img src={ChuckImg.src} className="rounded-[12px]" alt="" />
                 </picture>
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <h1 className='pt-[1rem] text-2xl'>Stella Puno</h1>
+                    <h1 className='pt-[1rem] text-2xl'>Chuck</h1>
 
                     <div className='m-auto'>
                         <button
@@ -45,12 +45,12 @@ const Stella = () => {
             <div className="card flex flex-col items-center rounded-[12px] p-5 text-white">
 
                 <picture>
-                    <img src={StellaImg.src} className="rounded-[12px]" alt="" />
+                    <img src={ChuckImg.src} className="rounded-[12px]" alt="" />
                 </picture>
 
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <p className='pt-[1rem] text-2xl'>I am Stella Puno</p>
+                    <p className='pt-[1rem] text-2xl'>I am Chuck</p>
 
                     <div className='m-auto'>
                         <button
@@ -67,4 +67,4 @@ const Stella = () => {
     )
 }
 
-export default Stella
+export default Chuck

@@ -5,6 +5,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ScrollBar */
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -16,9 +18,13 @@
   border-radius: 12px;
 }
 
-body {
-  background: #1d2847;
+/* Header & Navigation */
+
+#Header {
+  transition: 500ms;
 }
+
+/* Font Behevior */
 
 a,
 p,
@@ -31,63 +37,17 @@ img {
   text-align: justify;
 }
 
-.Layer1 {
-  background-image: url("../public/img/Layer1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+body {
+  background: #1d2847;
 }
 
-.about {
-  background-image: radial-gradient(circle, #1a2049 0%, #13162f 100%);
-}
+/* Landing Page */
 
 .tula-100,
 .tula,
-.Characters {
+.Characters,
+.Time {
   font-family: "Seymour One", sans-serif;
-}
-
-.tula {
-  text-shadow: 5px 5px 2px #0e0e90;
-}
-
-.description {
-  font-family: "Kanit", sans-serif;
-  text-indent: 60px;
-}
-
-.card {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.Line {
-  background-image: linear-gradient(
-    to right,
-    whitesmoke,
-    #1d2847,
-    #0e1630,
-    #1d2847,
-    whitesmoke
-  );
-}
-
-.Line2 {
-  background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
-  );
-}
-
-.About-Icon {
-  box-shadow: 0 0 10px whitesmoke;
-  background-color: transparent;
 }
 
 .rate {
@@ -126,8 +86,63 @@ img {
   color: red;
 }
 
-#Header {
-  transition: 500ms;
+.description {
+  font-family: "Kanit", sans-serif;
+  text-indent: 60px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Line {
+  background-image: linear-gradient(
+    to right,
+    whitesmoke,
+    #1d2847,
+    #0e1630,
+    #1d2847,
+    whitesmoke
+  );
+}
+
+.Line2 {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+
+.Poster {
+  animation: floating 4s infinite;
+}
+
+@keyframes floating {
+  0% {
+    margin-top: 10px;
+  }
+  50% {
+    margin-top: 100px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+
+/* About Page */
+
+.BG {
+  background-image: radial-gradient(circle, #1a2049 0%, #13162f 100%);
+}
+
+.About-Icon {
+  box-shadow: 0 0 100px whitesmoke;
+  background-color: transparent;
 }
 
 .Title {
@@ -135,6 +150,8 @@ img {
   background-clip: text;
   color: transparent;
 }
+
+/* Media Queries */
 
 @media (max-width: 768px) {
   .NavRowList {
