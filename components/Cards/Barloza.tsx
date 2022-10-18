@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ReactCardFlip from 'react-card-flip';
+import Modal from 'react-modal'
 
 // Component
 import BarlozaImg from '../../public/img/Barloza.jpg'
@@ -7,11 +8,37 @@ import BarlozaImg from '../../public/img/Barloza.jpg'
 
 const Barloza = () => {
 
+    // SetFunction
     const [isFlipped, setIsFlipped] = useState(false);
+    const [modalIsOpen, setIsOpen] = useState(false)
+
+    // Modal Function
+    function openModal() {
+        setIsOpen(true)
+    }
+
+    function closeModal() {
+        setIsOpen(false)
+    }
+
+    // CardFlip Function
     const handleClick = () => {
         setIsFlipped(!isFlipped);
     };
 
+
+    // Styles for Modal
+    const customStyles = {
+        content: {
+            top: '50%',
+            left: '50%',
+            right: 'auto',
+            bottom: 'auto',
+            marginRight: '-50%',
+            transform: 'translate(-50%, -50%)',
+            height: '500px'
+        },
+    };
     return (
         <ReactCardFlip
             isFlipped={isFlipped}
@@ -26,17 +53,34 @@ const Barloza = () => {
                 </picture>
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <h1 className='pt-[1rem] text-2xl'>Mrs. Barloza</h1>
+                    <h1 className='pt-[1rem] text-2xl m-auto'>Mrs. Barloza</h1>
 
-                    <div className='m-auto'>
+                    <div className='flex gap-[1rem] m-auto'>
                         <button
                             onClick={handleClick}
                             className=" inline-block rounded-md border border-solid border-[#01d293] bg-[transparent] hover:opacity-[0.8] px-6 py-[0.5rem] text-white ">
                             About Me
                         </button>
+
+                        <button
+                            onClick={openModal}
+                            className=" inline-block rounded-md border border-solid border-[#01d293] bg-[transparent] hover:opacity-[0.8] px-6 py-[0.5rem] text-white ">
+                            View
+                        </button>
                     </div>
 
                 </div>
+
+                <Modal isOpen={modalIsOpen} ariaHideApp={false} onRequestClose={closeModal} style={customStyles}>
+                    <picture>
+                        <img src={BarlozaImg.src} className="rounded-[12px] h-[25rem]" alt="" />
+                    </picture>
+                    <button
+                        onClick={closeModal}
+                        className="mt-[1rem] inline-block rounded-md border border-solid border-[#01d293] bg-[transparent] hover:opacity-[0.8] px-6 py-[0.5rem] text-black">
+                        Close
+                    </button>
+                </Modal>
 
             </div>
 

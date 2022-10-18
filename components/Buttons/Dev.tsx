@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Dev = () => {
 
-    let [open, setOpen] = useState(false)
+    let [open, setOpen] = useState(true)
 
     const Links = {
         GitHub: "https://github.com/Chysev/21st_MIL_Project",
