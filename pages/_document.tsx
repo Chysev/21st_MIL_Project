@@ -19,7 +19,7 @@ export default class CustomDocument extends Document {
                     <meta
                         id="meta-description"
                         name="description"
-                        content="Disneflix - 100 tula para kay Stella | 28.10.22"
+                        content="Disneflix - 100 tula para kay Stella | 28.10.22 | TPSians Production Team."
                     />
                     <meta
                         id="meta-keywords"
