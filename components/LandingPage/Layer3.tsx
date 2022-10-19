@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-
+import React, { useState } from 'react'
 
 // Components
 import Line from "../Icons/Line"

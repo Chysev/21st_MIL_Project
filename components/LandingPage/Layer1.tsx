@@ -1,5 +1,3 @@
-import AOS from 'aos'
-AOS.init();
 import styles from '../../css/Home.module.css'
 
 // Component
