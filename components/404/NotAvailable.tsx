@@ -1,4 +1,3 @@
-
 const NotAvailable = () => {
     return (
         <div className="flex min-h-[100vh] h-[100%] 992max:px-[2rem] BG">

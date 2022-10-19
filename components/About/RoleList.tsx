@@ -1,3 +1,7 @@
+import AOS from 'aos'
+AOS.init()
+
+
 const RoleList = () => {
     return (
         <div className="grid grid-cols-4 768max:grid-cols-2 768max:pb-[2rem] gap-[2rem]">

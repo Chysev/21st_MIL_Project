@@ -1,3 +1,5 @@
+import AOS from 'aos'
+AOS.init();
 import styles from '../../css/Home.module.css'
 
 // Component
@@ -30,19 +32,6 @@ const Layer1 = () => {
 
                     <div className="flex 420max:flex-col gap-2 ml-[1rem] items-center">
 
-                        {/* Removed */}
-
-                        {/*                         
-                        <div className="text-red-700 text-2xl">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                        </div> 
-                        */}
-
-                        {/* Added */}
                         <div className="rate flex items-center">
                             <input type="radio" id="star5" name="rate" value="5" />
                             <label htmlFor="star5" title="text">5 stars</label>

@@ -1,3 +1,5 @@
+/* Static Background Image For Layer 1 */
+
 .Layer {
   background-image: url("../public/img/Layer1.png");
   background-repeat: no-repeat;
