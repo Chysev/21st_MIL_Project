@@ -1,112 +1,40 @@
 import AOS from 'aos'
 AOS.init()
 
+// Components
+import Directors from './components/Directors'
+import VideoEditor from './components/VideoEditor'
+import ScriptWriters from './components/ScriptWriters'
+import Poster from './components/Poster'
+import WebDev from './components/WebDev'
+import Cinematics from './components/Cinematics'
+import Costumes_Props from './components/Costumes_Props'
 
 const RoleList = () => {
     return (
         <div className="grid grid-cols-4 768max:grid-cols-2 768max:pb-[2rem] gap-[4rem]">
 
             {/* Director */}
-            <div className="text-[#a2afd1] ">
-                <div
-                    data-aos="fade-right"
-                    data-aos-delay="300"
-                    className="Line2 bg-white h-[5px] rounded-[12px] w-[5rem]" />
-                <h1 className="flex items-center gap-2 font-bold text-2xl Title">
-                    <i className="fa-solid fa-clapperboard text-[16px]"></i>
-                    Directors
-                </h1>
-                <h2 className="text-[18px]">Mark Amiel</h2>
-                <h2 className="text-[18px]">Ashlee Dela Cruz</h2>
-            </div>
+            <Directors />
 
             {/* Video Editor */}
-            <div className="text-[#a2afd1] ">
-                <div
-                    data-aos="fade-right"
-                    data-aos-delay="300"
-                    className="Line2 bg-white h-[5px] rounded-[12px] w-[5rem]" />
-                <h1 className="flex items-center gap-2 font-bold text-2xl Title">
-                    <i className="fa-solid fa-video text-[16px]"></i>
-                    Video Editors
-                </h1>
-                <h2 className="text-[18px]">Mark Amiel</h2>
-                <h2 className="text-[18px]">Reign Beato</h2>
-
-            </div>
+            <VideoEditor />
 
             {/* Script Writers */}
-            <div className="text-[#a2afd1] ">
-                <div
-                    data-aos="fade-right"
-                    data-aos-delay="300"
-                    className="Line2 bg-white h-[5px] rounded-[12px] w-[5rem]" />
-                <h1 className="flex items-center gap-2 font-bold text-2xl Title">
-                    <i className="fa-solid fa-scroll text-[16px]"></i>
-                    Script Writers
-                </h1>
-                <h2 className="text-[18px]">Lavhinia Basillo</h2>
-                <h2 className="text-[18px]">Ashlee Dela Cruz</h2>
-            </div>
+            <ScriptWriters />
 
             {/* Poster */}
-            <div className="text-[#a2afd1] ">
-                <div
-                    data-aos="fade-right"
-                    data-aos-delay="300"
-                    className="Line2 bg-white h-[5px] rounded-[12px] w-[5rem]" />
-                <h1 className="flex items-center gap-2 font-bold text-2xl Title">
-                    <i className="fa-solid fa-paintbrush text-[16px]"></i>
-                    Designers
-                </h1>
-                <h2 className="text-[18px]">Reign Beato</h2>
-                <h2 className="text-[18px]">Ashlee Dela Cruz</h2>
-            </div>
+            <Poster />
 
             {/* Website Developer */}
-            <div className="text-[#a2afd1] ">
-                <div
-                    data-aos="fade-right"
-                    data-aos-delay="300"
-                    className="Line2 bg-white h-[5px] rounded-[12px] w-[5rem]" />
-                <h1 className="flex items-center gap-2 font-bold text-2xl Title">
-                    <i className="fa-solid fa-code text-[16px]"></i>
-                    Website Developer
-                </h1>
-                <h2 className="text-[18px]">John Layda</h2>
-                <h2 className="text-[18px]">Nicolo Luce (Designer)</h2>
-
-            </div>
+            <WebDev />
 
             {/* Cinematics  */}
-            <div className="text-[#a2afd1] ">
-                <div
-                    data-aos="fade-right"
-                    data-aos-delay="300"
-                    className="Line2 bg-white h-[5px] rounded-[12px] w-[5rem]" />
-                <h1 className="flex items-center gap-2 font-bold text-2xl Title">
-                    <i className="fa-solid fa-video text-[16px]"></i>
-                    Cinematics
-                </h1>
-                <h2 className="text-[18px]">Dominic Anota</h2>
-                <h2 className="text-[18px]">Myles Bagang</h2>
-                <h2 className="text-[18px]">Dave Siapno</h2>
-                <h2 className="text-[18px]">John Layda</h2>
-            </div>
+            <Cinematics />
 
             {/* Costumes & Props  */}
-            <div className="text-[#a2afd1]">
-                <div
-                    data-aos="fade-right"
-                    data-aos-delay="300"
-                    className="Line2 bg-white h-[5px] rounded-[12px] w-[5rem]" />
-                <h1 className="flex items-center gap-2 font-bold text-2xl Title">
-                    <i className="fa-solid fa-shirt text-[16px]"></i>
-                    Props Designers
-                </h1>
-                <h2 className="text-[18px]">Dave Siapno</h2>
-                <h2 className="text-[18px]">Myles Bagang</h2>
-            </div>
+            <Costumes_Props />
+
         </div>
     )
 }

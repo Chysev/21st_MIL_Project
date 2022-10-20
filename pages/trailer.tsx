@@ -1,4 +1,8 @@
-import NotAvailable from "../components/404/NotAvailable"
+import dynamic from "next/dynamic"
+
+
+// Dynamic Component
+const NotAvailable = dynamic(() => import("../components/503/NotAvailable"))
 
 const trailer = () => {
 

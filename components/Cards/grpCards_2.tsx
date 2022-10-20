@@ -2,7 +2,7 @@ import dynamic from "next/dynamic"
 import AOS from 'aos'
 AOS.init();
 
-// Components
+// Dynamic Components
 const Barloza = dynamic(() => import('./Barloza'), { ssr: false })
 const Chuck = dynamic(() => import('./Chuck'), { ssr: false })
 const Barrie = dynamic(() => import('./Barrie'), { ssr: false })

@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic"
 
 
-// Components
+// Dynamix Components
 const RoleList = dynamic(() => import("../components/About/RoleList"), { ssr: false })
 const AboutDescription = dynamic(() => import("../components/About/AboutDescription"), { ssr: false })
 
