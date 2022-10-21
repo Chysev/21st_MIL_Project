@@ -95,7 +95,7 @@ const Sol = () => {
 
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <p className='pt-[1rem] text-2xl'>I am Sol</p>
+                    <p className='pt-[1rem] text-2xl'>Ashlee as Sol</p>
 
                     <div className='m-auto'>
                         <button

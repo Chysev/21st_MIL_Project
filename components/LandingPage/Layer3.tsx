@@ -35,12 +35,12 @@ const Layer3 = () => {
 
                     <div className="flex gap-4 text-white text-2xl font-bold">
                         <p onClick={handleFirst}
-                            className={`shadow-[_0_0_10px_#01d293] p-[5px] px-[12px] rounded-full cursor-pointer hover:opacity-[0.8] ${activeTab === "tab1" ? "active" : ""}`}>
+                            className={`shadow-[_0_0_2px_#01d293] py-[0.5rem] px-[1.1rem] rounded-full cursor-pointer hover:opacity-[0.8] ${activeTab === "tab1" ? "active" : ""}`}>
                             1
                         </p>
 
                         <p onClick={handleSecond}
-                            className={`shadow-[_0_0_10px_#01d293] p-[5px] px-[12px] rounded-full cursor-pointer hover:opacity-[0.8] ${activeTab === "tab2" ? "active" : ""}`}>
+                            className={`shadow-[_0_0_2px_#01d293] py-[0.5rem] px-[1.1rem] rounded-full cursor-pointer hover:opacity-[0.8] ${activeTab === "tab2" ? "active" : ""}`}>
                             2
                         </p>
                     </div>

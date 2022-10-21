@@ -95,7 +95,7 @@ const Von = () => {
 
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <p className='pt-[1rem] text-2xl'>I am Von</p>
+                    <p className='pt-[1rem] text-2xl'>Dominic as Von</p>
 
                     <div className='m-auto'>
                         <button

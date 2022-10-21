@@ -96,7 +96,7 @@ const Fidel_Dad = () => {
 
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <p className='pt-[1rem] text-2xl'>I am Fidel's Dad</p>
+                    <p className='pt-[1rem] text-2xl'>Nicolo as Fidel's Dad</p>
 
                     <div className='m-auto'>
                         <button

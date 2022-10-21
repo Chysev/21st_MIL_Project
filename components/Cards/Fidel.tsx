@@ -95,7 +95,7 @@ const Fidel = () => {
 
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <p className='pt-[1rem] text-2xl'>I am Fidel Langsangan</p>
+                    <p className='pt-[1rem] text-2xl'>Mark as Fidel Langsangan</p>
 
                     <div className='m-auto'>
                         <button

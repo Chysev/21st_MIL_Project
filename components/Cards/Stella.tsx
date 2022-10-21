@@ -98,7 +98,7 @@ const Stella = () => {
 
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <p className='pt-[1rem] text-2xl'>I am Stella Puno</p>
+                    <p className='pt-[1rem] text-2xl'>Lavhinia as Stella Puno</p>
 
                     <div className='m-auto'>
                         <button

@@ -95,7 +95,7 @@ const Stella_Sister = () => {
 
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <p className='pt-[1rem] text-2xl'>I am Stella's Sister</p>
+                    <p className='pt-[1rem] text-2xl'>Jiselle as Stella's Sister</p>
 
                     <div className='m-auto'>
                         <button

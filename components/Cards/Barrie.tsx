@@ -94,7 +94,7 @@ const Barrie = () => {
 
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <p className='pt-[1rem] text-2xl'>I am Barrie</p>
+                    <p className='pt-[1rem] text-2xl'>Myles as Barrie</p>
 
                     <div className='m-auto'>
                         <button

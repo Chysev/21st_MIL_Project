@@ -95,7 +95,7 @@ const Chuck = () => {
 
 
                 <div className='flex gap-[0.8rem] flex-col '>
-                    <p className='pt-[1rem] text-2xl'>I am Chuck</p>
+                    <p className='pt-[1rem] text-2xl'>Dave as Chuck</p>
 
                     <div className='m-auto'>
                         <button
