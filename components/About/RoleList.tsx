@@ -7,12 +7,13 @@ import VideoEditor from './components/VideoEditor'
 import ScriptWriters from './components/ScriptWriters'
 import Poster from './components/Poster'
 import WebDev from './components/WebDev'
-import Cinematics from './components/Cinematics'
+import DOP from './components/DOP'
+import DP from './components/DP'
 import Costumes_Props from './components/Costumes_Props'
 
 const RoleList = () => {
     return (
-        <div className="grid grid-cols-4 768max:grid-cols-2 768max:pb-[2rem] gap-[4rem]">
+        <div className="grid grid-cols-4 768max:grid-cols-2 768max:pb-[2rem] gap-[5rem]">
 
             {/* Director */}
             <Directors />
@@ -29,8 +30,11 @@ const RoleList = () => {
             {/* Website Developer */}
             <WebDev />
 
-            {/* Cinematics  */}
-            <Cinematics />
+            {/* DOP */}
+            <DOP />
+
+            {/* DP  */}
+            <DP />
 
             {/* Costumes & Props  */}
             <Costumes_Props />

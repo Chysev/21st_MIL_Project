@@ -10,7 +10,7 @@ const WebDev = () => {
                 className="Line2 bg-white h-[5px] rounded-[12px] w-[5rem]" />
             <h1 className="flex items-center gap-2 font-bold text-2xl Title">
                 <i className="fa-solid fa-code text-[16px]"></i>
-                Website Developer
+                Website Developers
             </h1>
             <h2 className="text-[18px]">John Layda</h2>
             <h2 className="text-[18px]">Nicolo Luce (Designer)</h2>

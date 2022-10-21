@@ -61,7 +61,7 @@ const Fidel_Dad = () => {
                         <button
                             onClick={handleClick}
                             className=" inline-block rounded-md border border-solid border-[#01d293] bg-[transparent] hover:opacity-[0.8] px-6 py-[0.5rem] text-white ">
-                            About Me
+                            About
                         </button>
 
                         <button

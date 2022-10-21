@@ -10,10 +10,9 @@ const Costumes_Props = () => {
                 className="Line2 bg-white h-[5px] rounded-[12px] w-[5rem]" />
             <h1 className="flex items-center gap-2 font-bold text-2xl Title">
                 <i className="fa-solid fa-shirt text-[16px]"></i>
-                Props Designers
+                Costume & Props
             </h1>
-            <h2 className="text-[18px]">Dave Siapno</h2>
-            <h2 className="text-[18px]">Myles Bagang</h2>
+            <h2 className="text-[18px]">All Members</h2>
         </div>
     )
 }
