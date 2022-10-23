@@ -19,7 +19,7 @@ const AboutDescription = () => {
             </div>
 
             <h2 className="text-[#a2afd1] leading-[30px] text-justify font-[400]">
-                Disneflix is one of the best movie website that is accessible for everyone.This website is created for 100 Tula ni Stella Film Project in 21st century in the Philippines and the world and Media Information and Literacy. We are the TPSians' production team, and we are dedicated to bringing you one of the best student films you have ever seen.
+                PinoyTape is one of the best movie website that is accessible for everyone. This website is created for 100 Tula ni Stella Film Project in 21st century in the Philippines and the world and Media Information and Literacy. We are the TPSians' production team, and we are dedicated to bringing you one of the best student films you have ever seen.
             </h2>
         </div>
     )

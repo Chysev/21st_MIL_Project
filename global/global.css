@@ -23,8 +23,9 @@
 
 /* Header & Navigation */
 
-#Header {
-  transition: 500ms;
+#Header,
+#Logo {
+  transition: 580ms;
 }
 
 /* Font Behevior */

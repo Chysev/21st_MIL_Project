@@ -8,7 +8,7 @@ const trailer = () => {
 
     return (
         <>
-            <title>DISNEFLIX | Trailer</title>
+            <title>PINOY TAPE | Trailer</title>
             <NotAvailable />
         </>
     )

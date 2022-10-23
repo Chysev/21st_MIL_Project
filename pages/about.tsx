@@ -8,7 +8,7 @@ const AboutDescription = dynamic(() => import("../components/About/AboutDescript
 const about = () => {
     return (
         <>
-            <title>DISNEFLIX | ABOUT</title>
+            <title>PINOY TAPE | ABOUT</title>
 
             <div className="BG flex min-h-[100vh] h-[100%]">
 

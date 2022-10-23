@@ -8,7 +8,7 @@ const watch = () => {
 
     return (
         <>
-            <title>DISNEFLIX | Watch</title>
+            <title>PINOY TAPE | Watch</title>
             <NotAvailable />
         </>
     )

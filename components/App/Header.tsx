@@ -27,7 +27,7 @@ const Header = () => {
         <>
             <header
                 id="Header"
-                className={`flex z-[99] fixed w-[100%] opacity-[0.9] ${navbar ? 'bg-[#0e1630] shadow-[_0_0_5px_black] min-h-[70px]' : 'bg-[transparent] min-h-[90px]'}`}>
+                className={`flex z-[99] fixed w-[100%] opacity-[0.9] ${navbar ? 'bg-[#0e1630] shadow-[_0_0_5px_black] min-h-[70px] transition-[900ms]' : ' bg-[transparent] min-h-[90px]'}`}>
                 <div className=" flex justify-between max-w-[1300px] 768max:max-w-[600px] px-[2rem] w-[1300px] m-auto items-center">
 
                     <div className="flex items-center  992min:hidden gap-[2rem]">
