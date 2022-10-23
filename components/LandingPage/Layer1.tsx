@@ -46,7 +46,7 @@ const Layer1 = () => {
                         </div>
 
                         <div>
-                            <p className="text-white text-[18px] font-bold">{year} DISNEFLIX MOVIE</p>
+                            <p className="text-white text-[18px] font-bold">{year} PINOYTAPE MOVIE</p>
                         </div>
                     </div>
 
