@@ -49,6 +49,8 @@ module.exports = {
       /* =================== */
       "320max": { max: "320px" },
       "320min": { min: "320px" },
+
+      "875max": { max: "875px" },
     },
   },
   plugins: [],

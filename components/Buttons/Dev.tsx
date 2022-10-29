@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 
 const Dev = () => {
@@ -7,18 +7,17 @@ const Dev = () => {
 
     const Links = {
         GitHub: "https://github.com/Chysev/21st_MIL_Project",
-        Contents: "https://drive.google.com"
     }
+
 
     return (
         <div>
 
             <div>
                 <h1
-                    className='
-                            text-white cursor-pointer bg-[#0e0e23] hover:opacity-[0.5]  rounded-[7.5px] py-[8px] px-[20px]'
+                    className='text-white cursor-pointer bg-[#111169] hover:opacity-[0.5]  rounded-[7.5px] py-[8px] px-[20px]'
                     onClick={() => setOpen(!open)}>
-                    Devs
+                    More
                 </h1>
             </div>
 
@@ -34,11 +33,6 @@ const Dev = () => {
                     <Link
                         href={Links.GitHub}>
                         <a className='hover:opacity-[0.7]'>Source Code</a>
-                    </Link>
-
-                    <Link
-                        href={Links.Contents}>
-                        <a className='hover:opacity-[0.7]'>Contents</a>
                     </Link>
 
                 </div>

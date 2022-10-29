@@ -51,7 +51,7 @@ const Layer1 = () => {
                     </div>
 
                     <div className="ml-[2rem]">
-                        <p className="text-white max-w-[930px] leading-[30px] pr-[2rem] description">
+                        <p className="text-[#ffffff] max-w-[930px] leading-[30px] pr-[2rem] description">
                             Fidel Lansangan and Stella Puno first crossed paths in 2004,
                             when they were both psychology bachelor's degree candidates
                             in Pampanga. Despite having very different personalities—Stella
@@ -74,7 +74,7 @@ const Layer1 = () => {
                         </Button>
 
                         <Button2>
-                            + Trailer
+                            Explore
                         </Button2>
 
                     </div>

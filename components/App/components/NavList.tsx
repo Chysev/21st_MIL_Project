@@ -49,14 +49,6 @@ const NavList = () => {
                         </Link>
                     </li>
 
-                    <li className="flex items-center gap-2 hover:text-[red] text-white cursor-pointer">
-                        <i className="fa-solid fa-play text-[16px]"></i>
-                        <Link href="/trailer">
-                            <a className="text-[16px]">
-                                Trailer
-                            </a>
-                        </Link>
-                    </li>
 
                     <li className="flex items-center gap-2 hover:text-[red] text-white cursor-pointer">
                         <i className="fa-solid fa-clapperboard text-[16px]"></i>

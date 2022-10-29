@@ -1,9 +1,20 @@
 /* Static Background Image For Layer 1 */
 
 .Layer {
-  background-image: url("../public/img/Layer1.png");
+  position: relative;
+  isolation: isolate;
+}
+
+.Layer::after {
+  content: "";
+  position: absolute;
+  background: steelblue;
+  z-index: -1;
+  inset: 0;
+  opacity: 0.65;
+  background-image: url("../public/img/Layer1.svg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
