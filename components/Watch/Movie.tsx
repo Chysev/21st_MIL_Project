@@ -1,3 +1,6 @@
+import AOS from 'aos'
+AOS.init();
+
 
 const Movie = () => {
   return (
