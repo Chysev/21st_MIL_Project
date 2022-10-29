@@ -9,7 +9,7 @@ const Movie = () => {
         <iframe
           data-aos="fade-down"
           data-aos-delay="800"
-          className="Watch h-[auto] w-[100%]  aspect-video  rounded-[17.5px] active:mb-[3rem] hover: transition-all"
+          className="Watch h-[auto] w-[100%]  aspect-video  rounded-[17.5px] py-[2.5rem] active:mb-[3rem] hover: transition-all"
           src="https://www.youtube.com/embed/xNGu4BnttVY?rel=0"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
