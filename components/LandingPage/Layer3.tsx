@@ -26,7 +26,7 @@ const Layer3 = () => {
                 <div className="m-auto mb-[2rem]">
                     <h1
                         className="text-white text-4xl Characters">
-                        Characters
+                        The Cast
                     </h1>
                     <Line />
                 </div>
