@@ -1,6 +1,9 @@
+import dynamic from "next/dynamic"
+
 // Component
 import NotAvailable from "../components/503/NotAvailable"
-import Movie from "../components/Watch/Movie"
+const Movie = dynamic(() => import("../components/Watch/Movie"), { ssr: false })
+
 
 const watch = () => {
 
