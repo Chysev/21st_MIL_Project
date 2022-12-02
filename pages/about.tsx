@@ -1,9 +1,6 @@
-import dynamic from "next/dynamic"
-
-
-// Dynamix Components
-const RoleList = dynamic(() => import("../components/About/RoleList"), { ssr: false })
-const AboutDescription = dynamic(() => import("../components/About/AboutDescription"), { ssr: false })
+// Components
+import RoleList from "../components/About/RoleList"
+import AboutDescription from "../components/About/AboutDescription"
 
 const about = () => {
     return (
